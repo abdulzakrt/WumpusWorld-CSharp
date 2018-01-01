@@ -1,0 +1,27 @@
+﻿<Window x:Class="WumpusWordGUI.KnowledeBaseGUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WumpusWordGUI"
+        mc:Ignorable="d"
+        Title="KnowledeBaseGUI" Height="683.432" Width="408.284">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="31,398,32,33"/>
+
+
+        <Rectangle Fill="#FFF4F4F5"  Margin="31,91,32,340" Stroke="Black" />
+
+
+        <Label Content="Current KnowledgeBase" HorizontalAlignment="Left" Margin="31,367,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Agent's Requests" HorizontalAlignment="Left" Margin="31,60,0,0" VerticalAlignment="Top"/>
+        <ScrollViewer Margin="31,91,32,340">
+            <TextBlock x:Name="AgentText" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="221" Width="327"><Run Text="TextBlock"/></TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Margin="31,398,32,33">
+            <TextBlock x:Name="KBText" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="221" Width="327"><Run Text="TextBlock"/></TextBlock>
+        </ScrollViewer>
+        <Label Content="Agent's Prolog Interaction" HorizontalAlignment="Left" Margin="31,10,0,0" VerticalAlignment="Top" Width="208" FontSize="16"/>
+    </Grid>
+</Window>

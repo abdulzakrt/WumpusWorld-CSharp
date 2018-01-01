@@ -1,0 +1,22 @@
+﻿<Window x:Class="WumpusWordGUI.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WumpusWordGUI"
+        mc:Ignorable="d"
+        Title="Game" Height="319.527" Width="726.036" Closing="Window_Closing" Closed="Window_Closed" ResizeMode="NoResize">
+    <Canvas HorizontalAlignment="Left" Height="266" Margin="30,10,0,0" VerticalAlignment="Top" Width="640">
+        <Grid x:Name="Board" HorizontalAlignment="Left" Height="231" VerticalAlignment="Top" Width="293" Canvas.Left="25" Canvas.Top="30"/>
+        <Button x:Name="step" Content="Next Step" Canvas.Left="435" Canvas.Top="236" Width="75" Click="Button_Click"/>
+        <Rectangle Height="186" Canvas.Left="349" Stroke="Black" Canvas.Top="30" Width="255"/>
+        <ScrollViewer Canvas.Left="349" Canvas.Top="30" Height="186" Width="255" BorderThickness="1">
+            <TextBlock x:Name="GameText" TextWrapping="Wrap"  Width="255"/>
+        </ScrollViewer>
+        <Label Content="Agent Information" Canvas.Left="349" Canvas.Top="-1"/>
+        <Label Content="Board" Canvas.Left="25" Width="94" FontSize="18"/>
+
+
+
+    </Canvas>
+</Window>
