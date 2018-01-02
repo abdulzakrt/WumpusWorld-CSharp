@@ -9,6 +9,8 @@ This is an implementation of Wumpus World (a Knowledgebase agent game) using csh
 * C# has the main environment of the game and the GUI
 * Prolog is used as the knowledgebase of the agent of Wumpus World
 * In order for C# to communicate with Prolog a Csharp interface is used [SWI-Prolog](http://www.lesta.de/prolog/swiplcs/Generated/Index.aspx).
+* Author: Abdulrahman Zakrt 
+* Date: Jan.02, 2018
 
 Description
 ---------
