@@ -7,6 +7,7 @@ Wumpus World Game is based on knowledgebase agents and is described in the book 
 
 This is an implementation of Wumpus World (a Knowledgebase agent game) using csharp alongside prolog with a GUI.
 * C# has the main environment of the game and the GUI
+* The GUI was created using WPF , Windows Presentation Foundation.
 * Prolog is used as the knowledgebase of the agent of Wumpus World
 * In order for C# to communicate with Prolog a Csharp interface is used [SWI-Prolog](http://www.lesta.de/prolog/swiplcs/Generated/Index.aspx).
 * Author: Abdulrahman Zakrt 
@@ -23,9 +24,9 @@ Requirements
 ---------
 
 This implementation of Wumpus World uses prolog and is based on Dotnet and requires the following:
-* 64 bit machine , Currently the game only works on 64 bit machines
+* 64 bit windows machine , Currently the game only supports 64 bit machines
 * SWIPL(v6.6.6) 64 bit (Installed automatically by the game if not available)
-* Latest Version of DotNet
+* Latest Version of DotNet (Installed automatically by windows)
 
 
 How to use
