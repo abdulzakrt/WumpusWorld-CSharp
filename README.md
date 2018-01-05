@@ -20,7 +20,7 @@ The agent explores a cave consisting of rooms connected to each other. In one of
 <img src ="https://github.com/abdulzakrt/WumpusWorld-CSharp/blob/master/WumpusWordGUI/Art/wumpusmap.png" />
 </p>
 
-Description
+Description of the Project
 ---------
 
 The main GUI displays the board game itself and the actions the agent will take along with a description of its reasoning. The GUI shows 
