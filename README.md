@@ -19,6 +19,7 @@ The agent explores a cave consisting of rooms connected to each other. In one of
 <p align="center">
 <img src ="https://github.com/abdulzakrt/WumpusWorld-CSharp/blob/master/WumpusWordGUI/Art/wumpusmap.png" />
 </p>
+
 Description
 ---------
 
