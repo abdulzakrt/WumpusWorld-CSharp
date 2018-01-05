@@ -16,8 +16,9 @@ This is an implementation of Wumpus World (a Knowledgebase agent game) using csh
 Description of the Game
 ---------
 The agent explores a cave consisting of rooms connected to each other. In one of the rooms of the cave lies a Wumpus, a monster that kills the agent if he enters the room. Some rooms contain bottomless pits that trap any agent that wanders into the room. In one of the rooms there is gold. The goal of the agent is to collect the gold and go back to the start room to exit the world without being killed by the Wumpus or falling in one of the pits. The agent always starts at coordinates [1,1] as you can see in figure 1. The agent can only move in a 1 step fashion either vertically or horizontally. The four rooms adjacent to the Wumpus contain a Strench that the agent can perceive in order to help him make decisions. In the same manner, the four adjacent rooms to a pit room contain a breeze that the agent can perceive. When the agent enters a room containing gold, he will be able to sense a glitter. The agent should pick up the gold and deliver it back to the start room to fulfill the game’s main objective. The agent has one arrow that he can use to shoot the Wumpus. The arrow if shot will keep on going in the direction shot until it either hits the end of the cave or kills the Wumpus
-![WumpusMap](https://github.com/abdulzakrt/WumpusWorld-CSharp/blob/master/WumpusWordGUI/Art/wumpusmap.png "Logo")
-
+<p align="center">
+<img src ="https://github.com/abdulzakrt/WumpusWorld-CSharp/blob/master/WumpusWordGUI/Art/wumpusmap.png" />
+</p>
 Description
 ---------
 
