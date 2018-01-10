@@ -48,4 +48,6 @@ Source Code
 The source code of the implementation is in WumpusWordGUI which is in C#. The visual studio project should have a dependency of SWI-prolog which
 is included in the project as swipl.dll. The prolog file is in the Prolog folder and the artwork of the GUI in the Art folder.
 
-
+GUI Screenshot
+---------
+![GUIScreenShot](https://github.com/abdulzakrt/WumpusWorld-CSharp/blob/master/WumpusWordGUI/Art/GUIScreenShot.png "GUI ScreenShot")
